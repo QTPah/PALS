@@ -76,7 +76,6 @@ pub fn deserialize_be(data: &[u8]) -> Vec<Vec<u8>> {
 
     while i + 8 < data.len() && (data[i..(i + 8)] != [0; 8]) {
         lengths.push(u64::from_be_bytes(data[i..(i + 8)].try_into().unwrap()) - 1);
-        println!("{}", u64::from_be_bytes(data[i..(i + 8)].try_into().unwrap()) - 1);
         i += 8;
     }
 
