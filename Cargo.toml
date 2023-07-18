@@ -1,6 +1,8 @@
 [package]
-name = "PALS"
-version = "0.1.0"
+name = "palserializer"
+version = "0.1.2"
+description = "A tiny but efficient serializer written in rust used in nislib library."
+license = "MIT"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
