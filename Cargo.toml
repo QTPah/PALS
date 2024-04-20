@@ -1,6 +1,6 @@
 [package]
 name = "palserializer"
-version = "0.1.2"
+version = "0.3.0"
 description = "A tiny but efficient serializer written in rust used in nislib library."
 license = "MIT"
 edition = "2021"
